@@ -6,7 +6,7 @@ const searchImages = async (term) => {
             Authorization: 'Client-ID oHsfUmpgHiEabUvqOra0fBfbm8rUSBNASS9whrebw0s'
         },
         params: {
-            query: 'term',
+            query: term,
         }
     });
     return response.data.results;
